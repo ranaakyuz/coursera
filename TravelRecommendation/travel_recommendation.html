@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link rel="stylesheet" href="travel_recommendation.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">
+            <i class="fa-solid fa-plane-departure"></i>
+            <span>TravelBloom</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="travel_recommendation.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <button class="btn-search" id="btnSearch">Search</button>
+            <button class="btn-clear" id="btnReset">Clear</button>
+        </div>
+    </nav>
+
+    <div class="social-sidebar">
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="main-content">
+        <div class="hero-text" id="hero-content">
+            <h1>EXPLORE DREAM<br>DESTINATION</h1>
+            <p>The Travel Recommendation App helps users explore popular travel destinations through an interactive and user-friendly interface. It allows users to search for beaches, temples, countries, or specific country names to view related cities along with images and descriptions. The app dynamically fetches data from a structured JSON file to display relevant results. It provides a simple and efficient way to discover and plan travel destinations.</p>
+            <button class="btn-book">Book Now</button>
+        </div>
+
+        <div id="results-container"></div>
+    </div>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>
