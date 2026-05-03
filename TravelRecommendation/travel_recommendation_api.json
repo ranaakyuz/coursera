@@ -41,13 +41,13 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "https://images.unsplash.com/photo-1600575306631-0df8ff40c1a9?w=500&q=80",
+      "imageUrl": "https://unsplash.com/photos/ancient-stone-faces-of-bayon-temple-angkor-cambodia-8q_DXqVk7Aw",
       "description": "A stunning temple complex in Cambodia and the largest religious monument in the world."
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "https://images.unsplash.com/photo-1564507592208-028bb4126131?w=500&q=80",
+      "imageUrl": "https://unsplash.com/photos/white-concrete-building-under-blue-sky-during-daytime-Y_asWHXMwKA",
       "description": "An immense mausoleum of white marble, built in Agra by Mughal emperor Shah Jahan."
     }
   ],
